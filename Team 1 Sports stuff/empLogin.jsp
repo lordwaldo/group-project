@@ -11,10 +11,10 @@
     <!-- This is the navbar links-->
 
     <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="newAccount.html">Create New Account</a>
-        <a href="loginPage.html">Log In</a>
-        <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+        <a class="active" href="index.jsp">Home</a>
+        <a href="newAccount.jsp">Create New Account</a>
+        <a href="CustomerLogin.jsp">Log In</a>
+        <a href="cart.jsp"><i class="fas fa-shopping-cart"></i> Cart</a>
         <input type="text" placeholder="Search..">
     </div>
 
@@ -47,9 +47,9 @@
     </div>
     <!-- bottom part of the page-->
     <footer class="footer">
-        <a id=docFooter href="#news">Documentation</a>
-        <a id=empLoginFooter href="#empLogin">Employee Login</a>
-        <a id=aboutFooter href="#about">About</a>
+        <a id=docFooter href="faq.jsp">Documentation</a>
+        <a id=empLoginFooter href="empLogin.jsp">Employee Login</a>
+        <a id=aboutFooter href="faq.jsp">About</a>
     </footer>
 </body>
 
