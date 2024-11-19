@@ -47,9 +47,9 @@
     </div>
     <!-- bottom part of the page-->
     <footer class="footer">
-        <a id=docFooter href="#news">Documentation</a>
-        <a id=empLoginFooter href="#empLogin">Employee Login</a>
-        <a id=aboutFooter href="#about">About</a>
+        <a id=docFooter href="faq.jsp">Documentation</a>
+        <a id=empLoginFooter href="empLogin.jsp">Employee Login</a>
+        <a id=aboutFooter href="faq.jsp">About</a>
     </footer>
 </body>
 
