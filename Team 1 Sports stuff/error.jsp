@@ -9,7 +9,7 @@
 
 <body>
     <h1>the login username and password was incorrct please return back to page</h1>
-    <a href="">home page</a>
+    <a href="index.jsp">home page</a>
 </body>
 
 </html>
