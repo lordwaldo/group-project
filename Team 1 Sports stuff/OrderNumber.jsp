@@ -1,7 +1,7 @@
 <html>
 
 <body>
-    <link rel="stylesheet" href="order.css" />
+    <link rel="stylesheet" href="OrderNumber.css" />
     <!-- This is the navbar links-->
     <div class="topnav">
         <a class="active" href="index.jsp">Home</a>
