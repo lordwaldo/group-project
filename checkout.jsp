@@ -34,6 +34,12 @@
         padding: 10px;
         border: 5px solid black;
         }
+        
+        .footer{
+            margin-top: 500px;
+            
+        }
+        
         -->
         </style>
     
