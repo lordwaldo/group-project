@@ -51,19 +51,19 @@
         <a id=empLoginFooter href="empLogin.jsp">Employee Login</a>
         <a id=aboutFooter href="faq.jsp">About</a>
     </footer>
-<script>
-    document.getElementById("loginForm").addEventListener("submit", function(event){
-        event.preventDefault();
-        const username = document.getElementById("user").value;
-        const password = document.getElementById("pw").value;
-        if (username === "user" && password === "password"){
-            window.location.href = "index.jsp";
-        }
-        else {
-            window.location.href = "error.jsp";
-        }
-    });
-</script>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event){
+            event.preventDefault();
+            const username = document.getElementById("user").value;
+            const password = document.getElementById("pw").value;
+            if (username === "user" && password === "password"){
+                window.location.href = "index.jsp";
+            }
+            else {
+                window.location.href = "error.jsp";
+            }
+        });
+    </script>
 </body>
 
 </html>
