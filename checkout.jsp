@@ -15,6 +15,27 @@
         
         <!-- Link to CSS page -->
         <link rel="stylesheet" type="text/css" href="styles.css" />
+        
+        <style type="text/css">
+        <!-- 
+
+        .checkout {
+        float: left;
+        margin-left: 500px;
+        margin-bottom: 16px;
+        }
+        
+        .total {
+        float: right;
+        background-color: white;
+        margin-right: 600px;
+        width: 130px;
+        height: 150px;
+        padding: 10px;
+        border: 5px solid black;
+        }
+        -->
+        </style>
     
     </head>
     
@@ -28,8 +49,10 @@
         <input type="text" placeholder="Search..">
         </div>
         
-        <h1>Checkout</h1>
         
+    <h2>Checkout</h2>      
+    <div class="checkout">    
+     
     <form action="">
         <div>
             <label>Name on Card</label>
@@ -66,8 +89,16 @@
 
         <button id="Checkout"type="submit">Submit</button>
     </form>
+    </div>
+    
+    <div class="total">
         
-    </body>
+        <label>Items:</label>
+        <label>Shipping:</label>
+        <label>Tax:</label>
+        <h3>Total:</h3>
+        
+    </div>
     
     <!-- Footer -->
     <footer class="footer">
@@ -75,5 +106,9 @@
     <a id=empLoginFooter href="#empLogin">Employee Login</a>
     <a id=aboutFooter href="#about">About</a>
     </footer>
+        
+    </body>
+    
+    
     
 </html>
