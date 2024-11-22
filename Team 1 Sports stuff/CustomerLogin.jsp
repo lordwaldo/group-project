@@ -30,15 +30,15 @@
     <div class="container">
         <div class="center">
             <h1> Customer Login page</h1>
-            <form action="#" method="POST">
+            <form id = "loginForm">
                 <div class="txt_field">
                     <label>Username</label>
-                    <input type="text" name="text" required>
+                    <input id="user" type="text" name="text" required>
 
                 </div>
                 <div class="txt_field">
                     <label>Password</label>
-                    <input type="password" name="password" required>
+                    <input id="pw" type="password" name="password" required>
 
                 </div>
                 <input name="submit" type="submit" value="Login">
@@ -51,6 +51,19 @@
         <a id=empLoginFooter href="empLogin.jsp">Employee Login</a>
         <a id=aboutFooter href="faq.jsp">About</a>
     </footer>
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event){
+        event.preventDefault();
+        const username = document.getElementById("user").value;
+        const password = document.getElementById("pw").value;
+        if (username === "user" && password === "password"){
+            window.location.href = "index.jsp";
+        }
+        else {
+            window.location.href = "error.jsp";
+        }
+    });
+</script>
 </body>
 
 </html>
