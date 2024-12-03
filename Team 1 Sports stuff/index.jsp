@@ -23,7 +23,7 @@
         <a href="newAccount.html">Create New Account</a>
         <a href="loginPage.html">Log In</a>
         <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
-        <input type="text" placeholder="Search..">
+        <input type="text" id="imageSearch" placeholder="Search..." oninput="filterImages()">
     </div>
 
     <h1>Team 1 Sporting Goods</h1>
@@ -34,24 +34,24 @@
         <h2>Items for Sale</h2>
     </div>
 
-    <div class="row">
+ <div class="row">
         <div class="column">
-            <img src="images/sports1.jfif" style="width:100%" alt="">
-            <img src="images/fBall.webp" style="width:100%" alt="">
-            <img src="images/cleats.jfif" style="width:100%" alt="">
-            <img src="images/rShoes.jfif" style="width:100%" alt="">
+            <img src="images/sports1.jfif" style="width:100%" alt="sports">
+            <img src="images/fBall.webp" style="width:100%" alt="football">
+            <img src="images/cleats.jfif" style="width:100%" alt="cleats">
+            <img src="images/rShoes.jfif" style="width:100%" alt="running shoes">
         </div>
         <div class="column">
-            <img src="images/bBall.jfif" style="width:100%">
-            <img src="images/shorts.jfif" style="width:100%">
-            <img src="images/sBall.jfif" style="width:100%">
-            <img src="images/genericSports.jpg" style="width:100%" alt="">
+            <img src="images/bBall.jfif" style="width:100%" alt="basetball">
+            <img src="images/shorts.jfif" style="width:100%" alt="shorts">
+            <img src="images/sBall.jfif" style="width:100%" alt="softball">
+            <img src="images/genericSports.jpg" style="width:100%" alt="generic sports">
         </div>
         <div class="column">
-            <img src="images/shirts.jfif" style="width:100%" alt="">
-            <img src="images/bsktBall.jfif" style="width:100%" alt="">
-            <img src="images/bBallGlove.jfif" style="width:100%" alt="">
-            <img src="images/bBallBat.jfif" style="width:100%" alt="">
+            <img src="images/shirts.jfif" style="width:100%" alt="shirts">
+            <img src="images/bsktBall.jfif" style="width:100%" alt="basketball">
+            <img src="images/bBallGlove.jfif" style="width:100%" alt="baseball glove">
+            <img src="images/bBallBat.jfif" style="width:100%" alt="baseball bat">
         </div>
         <div class="quantity-box" id="quantity-box">
             <label for="quantity">Enter Quantity:</label>
@@ -59,6 +59,24 @@
         </div>
     </div>
 
+    
+<!-- JavaScript for searching -->        
+<script>
+    function filterImages() {
+        const searchInput = document.getElementById('imageSearch').value.toLowerCase();
+        const images = document.querySelectorAll('.row img');
+
+        images.forEach(img => {
+            const altText = img.getAttribute('alt').toLowerCase();
+            if (altText.includes(searchInput)) {
+                img.style.display = 'block'; // Show image
+            } else {
+                img.style.display = 'none'; // Hide image
+            }
+        });
+    }
+</script>
+    
 
     <!-- Footer -->
 
