@@ -42,6 +42,8 @@
             }else{
                 out.println("Customer is not logged in...");
             }
+            
+            
         %>
         
         <table class="cart-table">
@@ -75,17 +77,15 @@
                     for(int i = 0; i < count; i++){
                         cart1 = c1.list1.cartAr[i];
                         cartTotal += cart1.getPrice();
+                        System.out.println("Tester getProname():" + cart1.getProName());
                 
             %>
             
             <tr>
                 <td>
-                    <%out.println(cart1.getOrderID());%>
+                    <%out.println(cart1.getProName());%>
                 </td>
                 
-                <td>
-                    <i>1</i>
-                </td>
                 <td>
                     <%out.println(cart1.getPrice());%>
                 </td>
