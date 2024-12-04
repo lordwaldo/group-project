@@ -37,9 +37,46 @@
                 <button id="shipButton" onclick="changeText()">not shipped</button>
             </td>
             
+        </tr>
+
+         <tr>
+            <td>
+                <i>Product: </i>
+            </td>
+            
+            <td>
+                <i>Quantity: </i>
+            </td>
+            
+            <td>
+                <i>Price: </i>
+            </td>
+            <td>
+                <button id="shipButton" onclick="changeText()">not shipped</button>
+            </td>
+            
             
         </tr>
-    <div id="add"></div>
+        
+        
+        <tr>
+            <td>
+                <i>Product: </i>
+            </td>
+            
+            <td>
+                <i>Quantity: </i>
+            </td>
+            
+            <td>
+                <i>Price: </i>
+            </td>
+            <td>
+                <button id="shipButton" onclick="changeText()">not shipped</button>
+            </td>
+            
+            
+        </tr>
 
     <button id="addTable" onclick="addTable()">addTable</button>
 
