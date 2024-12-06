@@ -1,0 +1,195 @@
+html{ overflow-y: scroll;
+    height: 100%;
+    margin: auto;
+    overflow: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #b3dff5;
+    height: 100vh;
+}
+
+
+.container{
+	min-height: 35%;
+    overflow: auto;
+    padding-bottom: 100px;
+
+}
+.card{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+    width: 29vw;
+    height: 20vw;
+    background: white;
+    border-radius: 24px 24px 24px 24px;
+    text-align: center;
+}
+
+.info{
+      line-height: 100px;
+      text-align: center;
+}
+
+.name .ExpDate .cvv{
+    position: absolute;
+	color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.order{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.detail{
+
+	line-height:30px;
+}
+
+.summery{
+
+
+	    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+   
+
+
+.text{
+
+	line-height:18px;
+}
+.total{
+
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+    position: absolute;
+    left: 10%;
+}
+.money{
+
+
+	font-size: 14px;
+	font-weight:500;
+}
+.address{
+
+color: black;
+	font-weight:500;
+	font-size:14px;
+    position: absolute;
+    left: 40%;
+}
+
+.last {
+
+	font-size: 20px;
+	font-weight: 500;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+
+}
+
+
+.address-line{
+	color: #4C40E0;
+    font-size: 11px;
+    font-weight: 700;
+}
+/* Navbar */
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #5aed92;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: .5em .6em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b7b8b4;
+    color: black;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+
+.footer {
+    background-color: #5aed92;
+    color: #f2f2f2;
+    text-align: center;
+    padding: .5em .8em;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a{
+float: none;
+    color: #f2f2f2;
+    background-color: #5aed92;
+    text-align: center;
+    padding: .5em .6em;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.footer a:hover {
+background-color: #b7b8b4;
+    color: black;
+    padding: none;
+}
